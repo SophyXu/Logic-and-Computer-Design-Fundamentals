@@ -1,0 +1,48 @@
+NET "clk"   LOC= "T9";
+//扩展板按键
+NET "btn_in[0]"   LOC ="E6";
+NET "btn_in[1]"   LOC ="D5";
+NET "btn_in[2]"   LOC ="C5";
+NET "btn_in[3]"   LOC ="D6";
+NET "btn_in[4]"   LOC ="C6";
+NET "btn_in[5]"   LOC ="E7";
+NET "btn_in[6]"   LOC ="C7";
+NET "btn_in[7]"   LOC ="D7";
+//主板拨位开关
+NET "switch[0]"  LOC="F12";
+NET "switch[1]"  LOC="G12";
+NET "switch[2]"  LOC="H14";
+NET "switch[3]"  LOC="H13";
+//主板数码管位选
+NET "anode[0]"   LOC="D14";
+NET "anode[1]"   LOC="G14";
+NET "anode[2]"   LOC="F14";
+NET "anode[3]"   LOC="E13";
+//主板数码管笔划
+NET "segment[0]" LOC="E14";
+NET "segment[1]" LOC="G13";
+NET "segment[2]" LOC="N15";
+NET "segment[3]" LOC="P15"; 
+NET "segment[4]" LOC="R16";
+NET "segment[5]" LOC="F13";
+NET "segment[6]" LOC="N16";
+NET "segment[7]" LOC="P16";
+//扩展板数码管位选
+NET "anode[4]"  LOC = "B11";
+NET "anode[5]"  LOC = "A10";
+NET "anode[6]"  LOC = "B10";
+NET "anode[7]"  LOC = "A9";
+NET "anode[8]"  LOC = "A8";
+NET "anode[9]"  LOC = "B8";
+NET "anode[10]"  LOC = "A7";
+NET "anode[11]"  LOC = "B7";
+//扩展板数码管笔划
+NET "segment[8]"  LOC = "C8";
+NET "segment[9]"  LOC = "D8";
+NET "segment[10]"  LOC = "C9";
+NET "segment[11]"  LOC = "D10";
+NET "segment[12]"  LOC = "A3";
+NET "segment[13]"  LOC = "B4";
+NET "segment[14]"  LOC = "A4";
+NET "segment[15]"  LOC = "B5"; 
+
